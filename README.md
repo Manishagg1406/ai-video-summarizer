@@ -1,3 +1,13 @@
+---
+title: Summize
+emoji: 🎬
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
+
 # 🎬 VideoSummarizer AI
 
 A production-grade video summarization system combining computer vision, speech recognition, and multilingual NLP.

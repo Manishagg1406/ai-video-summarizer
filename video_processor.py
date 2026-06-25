@@ -74,7 +74,7 @@ def extract_audio(video_path: str,
         out_path = tmp.name
 
     cmd = [
-        "/opt/homebrew/bin/ffmpeg", "-y", "-i", video_path,
+        "ffmpeg", "-y", "-i", video_path,
         "-vn",                    # no video
         "-acodec", "pcm_s16le",  # PCM WAV
         "-ar", "16000",           # 16 kHz (Whisper native)
